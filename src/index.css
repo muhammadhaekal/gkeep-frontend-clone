@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e8e8e8;
+}
+
+/* header */
+
+.Header {
+  background-color: #ffbb00;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side-header {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+  background-color: #f5b400;
+  width: 700px;
+  height: 46px;
+}
+
+.search-input-group > input {
+  outline: none;
+  border: none;
+  background-color: #f5b400;
+  font-size: 18px;
+}
+
+.search-input-group > img {
+  padding: 10px;
+}
+
+.brand-name {
+  font-size: 22px;
+  margin: 0 12px;
+}
+
+.right-side-header > img {
+  margin: 0 8px;
+}
+
+.right-side-header {
+  display: flex;
+  align-items: center;
+}
+
+/* content */
+
+.content {
+  display: grid;
+  grid-template-columns: 17% 83%;
+}
+
+.left-navbar-menu > img {
+  margin: 8px 32px;
+}
+
+.left-navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+.left-navbar-menu:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.left-navbar {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.edit-label {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* component container */
+
+.component-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* input option */
+
+.input-option {
+  background-color: white;
+  width: 600px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 2px grey;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.input-option > img {
+  margin: 0 8px;
+}
+
+/* thumbnail list */
+
+.thumbnail-list {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.thumbnail {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 2px grey;
+}
+
+.thumbnail-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail-title {
+  display: flex;
+  align-items: center;
+}
+
+/* input note */
+
+.remove-outline-border {
+  outline: none;
+  border: none;
+}
+
+.input-form {
+  background-color: white;
+  width: 600px;
+  padding: 8px;
+  box-shadow: 0 2px 2px grey;
+}
+
+.input-form > img {
+  margin: 0 8px;
+}
+
+.input-title {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.input-description {
+  height: 50px;
+  padding: 0;
+}
